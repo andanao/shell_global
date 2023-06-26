@@ -23,3 +23,22 @@ alias gpl="git reset --hard && git pull && git log -1 --oneline" #I'm lazy somet
 
 # Misc
 alias dush='du -sh -- *'
+
+
+# Go to specific directories
+alias jkgd="cd ~/Downloads"
+
+if [ -n "$git_dir"]; then
+    alias jkl="cd $git_dir"
+fi
+
+if [ -n "$org_dir"]; then
+    alias jkgo="cd $org_dir"
+fi
+
+if [ -n "$emacs_dir"]; then
+    alias jkge="cd $emacs_dir"
+fi
+
+
+
