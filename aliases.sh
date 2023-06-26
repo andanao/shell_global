@@ -1,3 +1,4 @@
+echo "loading global aliases"
 # movement
 alias up="cd .."
 alias back="cd -"
