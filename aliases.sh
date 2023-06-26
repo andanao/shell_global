@@ -40,5 +40,9 @@ if [ -n "$emacs_dir"]; then
     alias jkge="cd $emacs_dir"
 fi
 
+if [ -n "$conf_dir"]; then
+    alias jkgc="cd $conf_dir"
+fi
+
 
 
