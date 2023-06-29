@@ -4,7 +4,7 @@ alias up="cd .."
 alias back="cd -"
 
 # files
-alias la="ls -la --color=auto"
+alias ls="ls --color=auto"
 alias ll="ls -la --color=auto"
 
 # grep
@@ -28,21 +28,24 @@ alias dush='du -sh -- *'
 # Go to specific directories
 alias jkgd="cd ~/Downloads"
 
-if [ -n "$git_dir"]; then
+if [ -n "$git_dir" ]; then
+    echo "git dir set to $git_dir"
     alias jkl="cd $git_dir"
+else
+    echo "git dir not set"
 fi
 
-if [ -n "$org_dir"]; then
+if [ -n "$org_dir" ]; then
+    echo "org dir set to $org_dir"
     alias jkgo="cd $org_dir"
 fi
 
-if [ -n "$emacs_dir"]; then
+if [ -n "$emacs_dir" ]; then
     alias jkge="cd $emacs_dir"
 fi
 
-if [ -n "$conf_dir"]; then
+if [ -n "$conf_dir" ]; then
     alias jkgc="cd $conf_dir"
 fi
-
 
 
