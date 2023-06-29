@@ -42,6 +42,7 @@ if [ -n "$git_dir" ]; then
     alias jkl="cd $git_dir"
 else
     echo "git dir not set"
+    echo "git dir $git_dir"
 fi
 
 if [ -n "$org_dir" ]; then
