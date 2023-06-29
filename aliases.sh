@@ -5,7 +5,8 @@ alias back="cd -"
 
 # files
 alias ls="ls --color=auto"
-alias ll="ls -la --color=auto"
+alias ll="ls -l --color=auto"
+alias la="ls -la --color=auto"
 
 # grep
 alias grepr="grep -ri"
