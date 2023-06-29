@@ -16,8 +16,8 @@ alias vi="vim"
 alias vir="vim -R"
 
 # git
-alias glog="git log --oneline"
-alias glogs="git log -10 --oneline"
+alias glog="git log --pretty=\"%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s\" --date=short"
+alias glogs="glog -5"
 alias gp="git pull"
 alias gpl="git reset --hard && git pull && git log -1 --oneline" #I'm lazy sometimes
 
@@ -27,6 +27,16 @@ alias dush='du -sh -- *'
 
 # Go to specific directories
 alias jkgd="cd ~/Downloads"
+
+# python
+alias py="python3"
+alias python="python3"
+alias pyi="python3 -i "
+alias pip="python3 -m pip"
+alias ipy="ipython"
+alias ipyi="ipython -i"
+alias ipyin="ipython -i --no-confirm-exit"
+
 
 if [ -n "$git_dir" ]; then
     echo "git dir set to $git_dir"
