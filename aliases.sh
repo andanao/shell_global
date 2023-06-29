@@ -1,4 +1,3 @@
-echo "loading global aliases"
 # movement
 alias up="cd .."
 alias back="cd -"
@@ -40,14 +39,12 @@ alias ipyin="ipython -i --no-confirm-exit"
 
 
 if [ -n "$git_dir" ]; then
-    echo "git dir set to $git_dir"
     alias jkl="cd $git_dir"
 else
     echo "git dir not set"
 fi
 
 if [ -n "$org_dir" ]; then
-    echo "org dir set to $org_dir"
     alias jkgo="cd $org_dir"
 fi
 
