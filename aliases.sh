@@ -19,7 +19,7 @@ alias vir="vim -R"
 alias glog="git log --pretty=\"%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s\" --date=short"
 alias glogs="glog -5"
 alias gp="git pull"
-alias gpl="git reset --hard && git pull && glog -1" #I'm lazy sometimes
+alias gpl="git reset --hard && git pull && glogs" #I'm lazy sometimes
 
 # Misc
 alias dush='du -sh -- *'
