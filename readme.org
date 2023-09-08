@@ -1,0 +1,26 @@
+#+title:Shell Globals
+In an attempt to stay sane and have similar enough configs across the various computers I use this is intended to be a general top level list of generic aliases and functions.
+* Usage and Implementation
+:PROPERTIES:
+:ID:       a1abb459-a75d-4f9c-a592-1a2d0281554a
+:END:
+To simplify setup and get started execute ~general.sh~ which then calls ~aliases.sh~ and ~functions.sh~
+
+For the most part this gets implemented as a submodule as can be seen in my [[https://github.com/andanao/dotfiles/tree/main][dotfiles]] for machines where I mantain dotfile configs
+
+* Quick Setup
+:PROPERTIES:
+:ID:       f8415b88-7fdb-4bb2-839f-251d36d3a93d
+:END:
+For use on a server or something where I just want to be able to feel at home
+
+#+begin_src shell
+git clone https://github.com/andanao/dotfiles/tree/main
+. ./shell_global/general.sh
+#+end_src
+
+
+Oneliner:
+#+begin_src shell
+git clone https://github.com/andanao/dotfiles/tree/main && . ./shell_global/general.sh
+#+end_src
