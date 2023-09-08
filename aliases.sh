@@ -16,7 +16,7 @@ alias vi="vim"
 alias vir="vim -R"
 
 # git
-alias gp="git pull"
+alias gp="git pull --recurse-submodules"
 alias gs="git status"
 alias gpl="git reset --hard && git pull --recurse-submodules && glogs" #I'm lazy sometimes
 alias glog="git log --pretty=\"%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s\" --date=short"
