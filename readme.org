@@ -28,6 +28,7 @@ Within [[aliases.sh][aliases.sh]] for common directories, or command I use the p
 :END:
 Often (and unfortuantely) common directories aren't where I might expect them (~~/git~ most commonly) so these are a list of variables where I can explicitly set paths to directories I commonly need to get to
 
+
 #+begin_src shell
 git_dir = "/path/to/git/directory"
 org_dir = "/path/to/org/directory"
@@ -35,11 +36,13 @@ emacs_dir = "/path/to/emacs/directory"
 conf_dir = "/path/to/config/directory"
 #+end_src
 
+
 ** Common Directories and Variables
 :PROPERTIES:
 :ID:       1a44ba1a-1252-4249-a47b-e05bc8e15a76
 :END:
 I've found one of the best uses for ~jk~ prefixes is to go to common directories as defined above
+
 
 #+begin_src shell
 alias jkl="cd $git_dir"
@@ -47,6 +50,7 @@ alias jkgo="cd $org_dir"
 alias jkge="cd $emacs_dir"
 alias jkgc="cd $conf_dir"
 #+end_src
+
 
 * Usage and Implementation
 :PROPERTIES:
