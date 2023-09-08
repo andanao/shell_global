@@ -21,6 +21,7 @@ alias gs="git status"
 alias gpl="git reset --hard && git pull && glogs" #I'm lazy sometimes
 alias glog="git log --pretty=\"%C(Yellow)%h  %C(reset)%ad (%C(Green)%cr%C(reset))%x09 %C(Cyan)%an: %C(reset)%s\" --date=short"
 alias glogs="glog -5"
+alias groot="cd $(git rev-parse --show-toplevel)"
 
 # Misc
 alias dush='du -sh -- *'
