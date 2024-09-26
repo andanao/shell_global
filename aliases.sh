@@ -6,6 +6,7 @@ alias back="cd -"
 alias ls="ls --color=auto"
 alias ll="ls -l --color=auto"
 alias la="ls -la --color=auto"
+alias yeet="rm -rf"
 
 # grep
 alias grepr="grep -ri"

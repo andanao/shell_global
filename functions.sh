@@ -11,3 +11,9 @@ git_commit_msg()
     git commit -m "$*"
 }
 alias gcm="git_commit_msg"
+
+rust_explain()
+{
+    rustc --explain e"$*"
+}
+alias rexplain=rust_explain
