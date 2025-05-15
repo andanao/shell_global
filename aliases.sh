@@ -50,14 +50,14 @@ else
 fi
 
 if [ -n "$org_dir" ]; then
-    alias jkgo="cd $org_dir"
+    alias jko="cd $org_dir"
 fi
 
 if [ -n "$emacs_dir" ]; then
-    alias jkge="cd $emacs_dir"
+    alias jke="cd $emacs_dir"
 fi
 
 if [ -n "$conf_dir" ]; then
-    alias jkgc="cd $conf_dir"
+    alias jkc="cd $conf_dir"
 fi
 
